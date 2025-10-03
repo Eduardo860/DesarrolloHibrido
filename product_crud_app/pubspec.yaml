@@ -1,0 +1,14 @@
+name: product_crud_app
+description: A console app for performing CRUD operations on products using the FakeStoreAPI.
+version: 1.0.0
+publish_to: none
+
+environment:
+  sdk: '>=2.18.0 <3.0.0'
+
+dependencies:
+  # No http package, as you are using custom API client
+  test: ^1.16.0 # Optionally, if you plan on adding unit tests.
+
+dev_dependencies:
+  test: ^1.16.0  # For unit testing
